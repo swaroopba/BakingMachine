@@ -1,0 +1,16 @@
+﻿  Shapes.cpp
+  Pizza.cpp
+  OrderItems.cpp
+  main.cpp
+  items.cpp
+  Ingredients.cpp
+  Cake.cpp
+  Bread.cpp
+  Biscuit.cpp
+  baking_machine.cpp
+  Compiling...
+  Generating Code...
+  3.0 actual.vcxproj -> C:\Users\Swaroop.BA\source\repos\assignment\Debug\3.0 actual.exe
+  3.0 actual.vcxproj -> C:\Users\Swaroop.BA\source\repos\assignment\Debug\3.0 actual.pdb (Partial PDB)
+c:\users\swaroop.ba\source\repos\assignment\3.0 actual\baking_machine.cpp(205): warning C6385: Reading invalid data from 'tickmark':  the readable size is 'unsigned int' bytes, but '8' bytes may be read.
+c:\users\swaroop.ba\source\repos\assignment\3.0 actual\main.cpp(20): warning C6031: Return value ignored: '_getch'.

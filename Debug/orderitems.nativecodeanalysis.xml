@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+      <FILENAME>orderitems.cpp</FILENAME>
+      <LINE>115</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'a' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '16' of 'c:\users\swaroop.ba\source\repos\assignment\3.0 actual\orderitems.cpp'.</DESCRIPTION>
+    <FUNCTION>OrderItems::orderItems</FUNCTION>
+    <DECORATED>?orderItems@OrderItems@@QAEXXZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>orderitems.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+      <FILENAME>orderitems.cpp</FILENAME>
+      <LINE>115</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'count' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '55' of 'c:\users\swaroop.ba\source\repos\assignment\3.0 actual\orderitems.cpp'.</DESCRIPTION>
+    <FUNCTION>OrderItems::orderItems</FUNCTION>
+    <DECORATED>?orderItems@OrderItems@@QAEXXZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>orderitems.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

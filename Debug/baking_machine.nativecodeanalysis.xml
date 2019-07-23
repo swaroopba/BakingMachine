@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+      <FILENAME>baking_machine.cpp</FILENAME>
+      <LINE>205</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'tickmark':  the readable size is 'unsigned int' bytes, but '8' bytes may be read.</DESCRIPTION>
+    <FUNCTION>baking_machine::checkProducts</FUNCTION>
+    <DECORATED>?checkProducts@baking_machine@@QAEXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z</DECORATED>
+    <FUNCLINE>118</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>119</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>121</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>122</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>123</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>129</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>140</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>140</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;b.getnum()' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'i==b.getnum()' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>153</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>153</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>162</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>162</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;br.getnum()' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>165</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'i==br.getnum()' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>172</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>174</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>174</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;c.getnum()' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>186</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>193</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>195</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>195</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;n' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>204</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>204</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;p.getnum()')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>205</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>11</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'tickmark[i]!=1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>204</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>12</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>204</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>13</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;p.getnum()')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>205</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>14</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'tickmark[i]!=1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>205</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>15</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'tickmark', (outside its readable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+      <FILENAME>baking_machine.cpp</FILENAME>
+      <LINE>259</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'i' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '233' of 'c:\users\swaroop.ba\source\repos\assignment\3.0 actual\baking_machine.cpp'.</DESCRIPTION>
+    <FUNCTION>baking_machine::calculate_quantity</FUNCTION>
+    <DECORATED>?calculate_quantity@baking_machine@@QAEXPAM@Z</DECORATED>
+    <FUNCLINE>225</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>233</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+      <FILENAME>baking_machine.cpp</FILENAME>
+      <LINE>286</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'i' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '233' of 'c:\users\swaroop.ba\source\repos\assignment\3.0 actual\baking_machine.cpp'.</DESCRIPTION>
+    <FUNCTION>baking_machine::calculate_quantity</FUNCTION>
+    <DECORATED>?calculate_quantity@baking_machine@@QAEXPAM@Z</DECORATED>
+    <FUNCLINE>225</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>233</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+      <FILENAME>baking_machine.cpp</FILENAME>
+      <LINE>313</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'i' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '233' of 'c:\users\swaroop.ba\source\repos\assignment\3.0 actual\baking_machine.cpp'.</DESCRIPTION>
+    <FUNCTION>baking_machine::calculate_quantity</FUNCTION>
+    <DECORATED>?calculate_quantity@baking_machine@@QAEXPAM@Z</DECORATED>
+    <FUNCLINE>225</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>233</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+      <FILENAME>baking_machine.cpp</FILENAME>
+      <LINE>340</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'i' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '233' of 'c:\users\swaroop.ba\source\repos\assignment\3.0 actual\baking_machine.cpp'.</DESCRIPTION>
+    <FUNCTION>baking_machine::calculate_quantity</FUNCTION>
+    <DECORATED>?calculate_quantity@baking_machine@@QAEXPAM@Z</DECORATED>
+    <FUNCLINE>225</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\swaroop.ba\source\repos\assignment\3.0 actual\</FILEPATH>
+        <FILENAME>baking_machine.cpp</FILENAME>
+        <LINE>233</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
